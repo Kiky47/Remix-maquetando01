@@ -19,8 +19,9 @@ class Reposteria {
     //alert( document.querySelector('#panelMensaje')    );
     //alert( document.querySelector('#producto_titulo') );
     
-    document.querySelector('#panelMensaje').innerHTML += document.querySelector('#producto_titulo').value;
-    //document.querySelector('#panelMensaje').innerHTML += document.querySelector('#producto_producto').value;
+    document.querySelector('#panelMensaje').innerHTML += document.querySelector('#producto_titulo').value 
+    + document.querySelector('#producto_descripcion').value;
+    
     
     
     console.log('[OK] Buenos Aires Programando Online!!');
